@@ -1,11 +1,12 @@
 .navbar {
   /* background:transparent; */
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 999;
 }
@@ -21,7 +22,7 @@
 .navbar-logo {
   color: #FE4370;
   justify-content: center;
-  margin-left: 250px;
+
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -52,6 +53,7 @@
 .nav-links {
   color: #fff;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -77,12 +79,13 @@
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    position: relative;
+    position: fixed;
+    
   }
 
   .navbar {
     /* background:transparent; */
-    position: relative;
+    position: fixed;
 
   }
 
@@ -90,8 +93,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     top: 80px;
     left: -100%;
     opacity: 1;
@@ -100,10 +103,12 @@
 
   .nav-menu.active {
     background: #242222;
+    width: 100%;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+
   }
 
   .nav-links {
@@ -134,7 +139,7 @@
 
   .menu-icon {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
