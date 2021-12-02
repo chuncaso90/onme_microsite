@@ -1,51 +1,27 @@
-import React, {ReactDOM} from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
 import '../../App.css';
 import './whoweare.css';
 import styled from 'styled-components';
 import Carousel from "react-elastic-carousel";
 import ImageSlider from '../ImageSlider';
 import { SliderData } from '../SliderData';
+import {Image } from 'antd';
+import image from '../images/img-1.jpg';
 
-
-const Profilecont = styled.div`
-    display: flex;
-    height: 50%;
-    width: 80%;
-    /* background-color: red; */
-    flex-direction:column;
-    padding: 3%;
-
-
-`;
-
-const ProfileHeader = styled.p`
-    font-size: 24px;
-    color: #A57760;
-
-`;
-
-const Role = styled.p`
-    font-size: 14px;
-    color: #FE4370;
-    margin-left: 5%;
-
-`;
-
-const HeaderCont = styled.div`
+const WhoCont = styled.div`
   display: flex;
+  height: 100%;
+  justify-content: space-between;
+  width: 70%;
   flex-direction: row;
-  width: 100%;
+  flex-wrap: wrap;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 8);
+  border-radius: 15px;
 
-
+ 
 `;
 
-const Bodycontent = styled.div`
-
-`;
-
-const Bodypara = styled.p`
-  color: #FFF;
-`;
 
 
 
@@ -56,6 +32,10 @@ export default function Whoweare() {
     <div className='whowearecont'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <div className='cont'>
+
+          <ImageSlider slides={SliderData}/>
+
+
  
           {/* <div className='userpic'>
             <img src="/jeremy.jpg"  id="jeremy" />
@@ -96,9 +76,8 @@ export default function Whoweare() {
 
               </Profilecont>
           </div> */}
-          <ImageSlider slides={SliderData}/>;
+          {/* <ImageSlider slides={SliderData}/>; */}
       </div>
-
 
     </div>
   );

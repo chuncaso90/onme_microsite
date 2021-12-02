@@ -1,6 +1,6 @@
 export const SliderData = [
     {
-        image: 'https://drive.google.com/file/d/1_rA9fBW4dYhcaOwlKCETa01IgbOH9fyb/view?usp=sharing'
+        image: './images/Groug'
 
     },
     {
