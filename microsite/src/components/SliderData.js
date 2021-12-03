@@ -1,13 +1,25 @@
 export const SliderData = [
     {
-        image: './images/Groug'
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638478525/one/alicia_n1febi.png'
 
     },
     {
-        image: 'https://images.unsplash.com/photo-1638131242302-78189865fe15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638478933/one/ARIELLE_vhxf9q.png'
     },
 
     {
-        image: 'https://images.unsplash.com/photo-1638063761285-08f6a2f796f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1434&q=80'
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638481898/one/jeremy_pvtjza.png'
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638481898/one/danny_gifcbl.png'
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638481898/one/min_nzensx.png'
+    },
+
+    {
+        image: 'https://res.cloudinary.com/dwqdmvjte/image/upload/v1638481898/one/charlene_kayocm.png'
     },
 ]

@@ -6,17 +6,15 @@ import styled from 'styled-components';
 import Carousel from "react-elastic-carousel";
 import ImageSlider from '../ImageSlider';
 import { SliderData } from '../SliderData';
-import {Image } from 'antd';
-import image from '../images/img-1.jpg';
+
 
 const WhoCont = styled.div`
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  width: 70%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 8);
+  display:flex;
+  margin-top: 3%;
+  width: 90%;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   border-radius: 15px;
 
  
@@ -32,9 +30,9 @@ export default function Whoweare() {
     <div className='whowearecont'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <div className='cont'>
-
-          <ImageSlider slides={SliderData}/>
-
+          <WhoCont>
+            <ImageSlider slides={SliderData} id="whoslider"/>
+          </WhoCont>
 
  
           {/* <div className='userpic'>

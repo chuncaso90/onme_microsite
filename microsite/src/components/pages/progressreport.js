@@ -1,10 +1,10 @@
 import React from 'react';
-
 import '../../App.css';
 import '../pages/progressreport.css';
 import HeroSection from '../HeroSection';
 import styled from 'styled-components';
 import {FaCheckCircle, FaRunning, FaRegCircle, } from 'react-icons/fa'
+
 
 const Contprogress = styled.div`
   display: flex;
@@ -20,8 +20,9 @@ const Contprogress = styled.div`
 `;
 
 const Title = styled.h1`
+  margin-top: 1.5rem;
   color: #Fff;
-  font-size: 2;
+  font-size: 1.5rem;
 
 `;
 
@@ -52,6 +53,7 @@ const DescripDiv = styled.div`
 
 const Description = styled.p`
 color: #FFF;
+
 `;
 
 const RecordCont = styled.div`
@@ -159,11 +161,13 @@ export default function Progress() {
 
             <Allcont>
             <IconDiv>
-              <FaRunning fontSize="2rem" color="#FFF171"/>
+            <FaRunning 
+            fontSize="2rem" 
+            color="#FFF171"/>
             </IconDiv>
             <DescripDiv>
               <Description>
-                Dugging
+                Debugging
               </Description>
             </DescripDiv>
             </Allcont>
