@@ -198,13 +198,32 @@ export default function Progress() {
 
         <ItemCont>
           <RecordCont>
-            <RecordTitle>October 21, 2021- October 27, 2021</RecordTitle>
-            <RecordDescription>OnMe’s med-fi prototype was created after all the tests for low-fi were completed. All resulted were compiled, the team took like suggestions and made the necessary changed to complete med-fi.
+            <RecordTitle>October 22, 2021- October 27, 2021</RecordTitle>
+            <RecordDescription>PHASE 1 PREPARATION (ASSET DESIGN)
             </RecordDescription>
           </RecordCont>
 
         </ItemCont>
 
+
+        <ItemCont>
+          <RecordCont>
+            <RecordTitle>October 25, 2021- October 27, 2021</RecordTitle>
+            <RecordDescription>TASK MODEL (DESIGN)
+            </RecordDescription>
+          </RecordCont>
+
+        </ItemCont>
+
+
+        <ItemCont>
+          <RecordCont>
+            <RecordTitle>October 27, 2021- November 3, 2021</RecordTitle>
+            <RecordDescription>PHASE 2 COMPONENTS (ASSET DESIGN) 
+            </RecordDescription>
+          </RecordCont>
+
+        </ItemCont>
 
         <ItemCont>
           <RecordCont>
@@ -218,27 +237,8 @@ export default function Progress() {
 
         <ItemCont>
           <RecordCont>
-            <RecordTitle>October 21, 2021- October 27, 2021</RecordTitle>
-            <RecordDescription>OnMe’s med-fi prototype was created after all the tests for low-fi were completed. All resulted were compiled, the team took like suggestions and made the necessary changed to complete med-fi.
-            </RecordDescription>
-          </RecordCont>
-
-        </ItemCont>
-
-        <ItemCont>
-          <RecordCont>
-            <RecordTitle>October 21, 2021- October 27, 2021</RecordTitle>
-            <RecordDescription>OnMe’s med-fi prototype was created after all the tests for low-fi were completed. All resulted were compiled, the team took like suggestions and made the necessary changed to complete med-fi.
-            </RecordDescription>
-          </RecordCont>
-
-        </ItemCont>
-
-
-        <ItemCont>
-          <RecordCont>
-            <RecordTitle>October 21, 2021- October 27, 2021</RecordTitle>
-            <RecordDescription>OnMe’s med-fi prototype was created after all the tests for low-fi were completed. All resulted were compiled, the team took like suggestions and made the necessary changed to complete med-fi.
+            <RecordTitle>November 8, 2021</RecordTitle>
+            <RecordDescription>DEVELOPMENT FOR WEBSITE 
             </RecordDescription>
           </RecordCont>
 
