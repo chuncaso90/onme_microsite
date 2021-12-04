@@ -245,16 +245,6 @@ export default function Progress() {
         </ItemCont>
 
 
-        <ItemCont>
-          <RecordCont>
-            <RecordTitle>October 21, 2021- October 27, 2021</RecordTitle>
-            <RecordDescription>OnMe’s med-fi prototype was created after all the tests for low-fi were completed. All resulted were compiled, the team took like suggestions and made the necessary changed to complete med-fi.
-            </RecordDescription>
-          </RecordCont>
-
-        </ItemCont>
-
-
 
 
 
